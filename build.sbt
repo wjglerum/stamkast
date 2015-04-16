@@ -12,3 +12,8 @@ libraryDependencies ++= Seq(
   cache,
   ws
 )
+
+herokuAppName in Compile := "stamkast"
+
+
+fork in run := true
