@@ -10,10 +10,12 @@ libraryDependencies ++= Seq(
   jdbc,
   anorm,
   cache,
-  ws
+  ws,
+  "org.webjars.bower" % "bootstrap" % "3.3.4",
+  "org.webjars" %% "webjars-play" % "2.3.0-2",
+  "com.typesafe.play" %% "play-mailer" % "2.4.0"
 )
 
 herokuAppName in Compile := "stamkast"
-
 
 fork in run := true
