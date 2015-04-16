@@ -1,4 +1,5 @@
-This is your new Play application
+Stamkast
 =================================
+[![Build Status](https://travis-ci.org/wjglerum/stamkast.svg?branch=master)](https://travis-ci.org/wjglerum/stamkast)
 
-This file will be packaged with your application, when using `activator dist`.
+Managing beverages and billing for Hopman van Gelderen Stam.
