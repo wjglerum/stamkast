@@ -1,0 +1,9 @@
+@(title: String, scripts: Html = Html(""))(content: Html)
+
+@main(title, scripts) {
+
+    <div class="container">
+        <h1 class="page-header">@title</h1>
+        <div class="page-content">@content</div>
+    </div>
+}

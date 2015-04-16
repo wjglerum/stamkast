@@ -1,7 +1,7 @@
-@(message: String)
+@(title: String, message: String)
 
-@main("Welcome to Play") {
+@template(title) {
 
-    @play20.welcome(message)
+    @message
 
 }
