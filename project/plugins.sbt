@@ -19,3 +19,9 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.0.0")
 
 // Heroku deploy
 addSbtPlugin("com.heroku" % "sbt-heroku" % "0.3.6")
+
+
+// Coveralls plugin
+resolvers += Classpaths.sbtPluginReleases
+
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.0.4")
